@@ -1,7 +1,7 @@
 // ===== Dynamic Years of Experience =====
 (function updateExperience() {
     // Career start: June 2021 (month is 0-indexed: 5 = June)
-    const careerStart = new Date(2021, 5, 1);
+    const careerStart = new Date(2019, 1, 18);
     const now = new Date();
 
     // Calculate total months between then and now
