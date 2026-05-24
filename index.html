@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      id="meta-description"
+      content="Portfolio of Sreenath S Menon, Software Quality Engineer specializing in test automation, API testing, and quality assurance at Infosys."
+    />
+    <title>Sreenath S Menon | Software Quality Engineer</title>
+    <link rel="icon" type="image/png" href="portfolio-titleimg.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">SREENATH S MENON</a>
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div
+          class="nav-actions"
+          style="display: flex; align-items: center; gap: 1rem"
+        >
+          <button
+            id="theme-button"
+            aria-label="Toggle Dark Mode"
+            style="
+              background: transparent;
+              border: none;
+              color: var(--text-color);
+              cursor: pointer;
+              display: flex;
+              align-items: center;
+              padding: 0;
+            "
+          >
+            <i
+              class="ri-moon-line"
+              id="theme-icon"
+              style="font-size: 1.25rem"
+            ></i>
+          </button>
+          <div class="nav-toggle" id="navToggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <!-- Neural AI Background Canvas -->
+      <canvas id="neural-bg" aria-hidden="true"></canvas>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Sreenath S Menon</span>
+          </h1>
+          <h2 class="hero-subtitle">Quality Automation Engineer | SDET</h2>
+          <p class="hero-description">
+            QA SDET with <span id="hero-exp">7+</span> years of experience
+            specializing in Automation Frameworks and Performance Engineering.
+            Expert in Playwright, Selenium, and API Testing, with a growing
+            focus on AI-driven testing methodologies and AI-based test
+            automation and orchestration resulting in measurable reductions in
+            manual effort and execution time. Experienced in onsite
+            collaboration in Europe, working closely with stakeholders.
+            Experienced in Agile environment with a focus on Quality Engineering
+            and shift-left testing. Well versed in Agile SDLC/ STLC delivery,
+            cross-functional collaboration, and stakeholder management in global
+            environments across retail, eCommerce, and manufacturing domains.
+            <br /><br />
+            <i
+              >Open to relocation and international assignments across Europe</i
+            >
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Hire Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-blob">
+            <img
+              src="portfolio-sreenath.png"
+              alt="Sreenath S Menon - Software Quality Engineer"
+              class="hero-photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3 class="about-heading">Who am I?</h3>
+            <p class="about-description">
+              Dedicated and results-driven QA SDET with
+              <span id="about-exp">7+</span> years of experience specializing in
+              Automation Frameworks and Performance Engineering. Expert in
+              Playwright, Selenium, and API Testing, with a growing focus on
+              AI-driven testing methodologies and AI-based test automation and
+              orchestration resulting in measurable reductions in manual effort
+              and execution time. Experienced in onsite collaboration in Europe,
+              working closely with stakeholders. Experienced in Agile
+              environment with a focus on Quality Engineering and shift-left
+              testing. Well versed in Agile SDLC/ STLC delivery,
+              cross-functional collaboration, and stakeholder management in
+              global environments across retail, eCommerce, and manufacturing
+              domains.
+              <br />
+              <i
+                >Open to relocation and international assignments across
+                Europe</i
+              >
+            </p>
+            <div class="about-skills">
+              <div class="skill-item">
+                <i class="ri-bug-line"></i>
+                <h4>Manual Testing</h4>
+              </div>
+              <div class="skill-item">
+                <i class="ri-code-s-slash-line"></i>
+                <h4>Test Automation</h4>
+              </div>
+              <div class="skill-item">
+                <i class="ri-database-2-line"></i>
+                <h4>API Testing</h4>
+              </div>
+              <div class="skill-item">
+                <i class="ri-shopping-bag-line"></i>
+                <h4>OMS & WMS Testing</h4>
+              </div>
+              <div class="skill-item">
+                <i class="ri-speed-line"></i>
+                <h4>Performance Testing</h4>
+              </div>
+              <div class="skill-item">
+                <i class="ri-git-branch-line"></i>
+                <h4>BDD Frameworks</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="about-right"
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: var(--spacing-xl);
+            "
+          >
+            <div class="about-education about-info">
+              <h3
+                class="about-heading"
+                style="margin-bottom: 1rem; font-size: 1.25rem"
+              >
+                Education
+              </h3>
+              <div
+                class="info-item"
+                style="
+                  flex-direction: column;
+                  align-items: flex-start;
+                  gap: 0.25rem;
+                  border-bottom: none;
+                  padding-bottom: 0;
+                "
+              >
+                <span class="info-label" style="font-size: 1rem"
+                  ><i
+                    class="ri-graduation-cap-fill"
+                    style="color: var(--primary-color); margin-right: 0.25rem"
+                  ></i>
+                  Bachelor of Computer Application</span
+                >
+                <span
+                  class="info-value"
+                  style="margin-left: 1.5rem; font-size: 0.95rem"
+                  >University of Calicut &mdash; 2014 &ndash; 2018</span
+                >
+              </div>
+            </div>
+            <div class="about-info">
+              <div class="info-item">
+                <span class="info-label">Name:</span>
+                <span class="info-value">Sreenath S Menon</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span class="info-value">sreenathsivaraman78@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Experience:</span>
+                <span class="info-value"
+                  ><span id="info-exp">7+</span> Years</span
+                >
+              </div>
+              <div class="info-item" style="border-bottom: none">
+                <span class="info-label">Company:</span>
+                <span class="info-value">Infosys Limited</span>
+              </div>
+              <a
+                href="Sreenath_S_Menon_ResumeCV.pdf"
+                class="btn btn-primary download-btn"
+                download
+              >
+                <i class="ri-download-line"></i> Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">What I Offer</h2>
+          <p class="section-subtitle">
+            End-to-end quality assurance, tailored to your product
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-bug-line"></i>
+            </div>
+            <h3 class="service-title">Test Automation</h3>
+            <p class="service-description">
+              <li>
+                <ul>
+                  Playwright
+                </ul>
+                <ul>
+                  Playwright MCP
+                </ul>
+                <ul>
+                  Selenium
+                </ul>
+                <ul>
+                  SpecFlow
+                </ul>
+                <ul>
+                  TestNG
+                </ul>
+              </li>
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-code-s-slash-line"></i>
+            </div>
+            <h3 class="service-title">Programming Languages</h3>
+            <p class="service-description">
+              <li>
+                <ul>
+                  TypeScript
+                </ul>
+                <ul>
+                  JavaScript
+                </ul>
+                <ul>
+                  Java
+                </ul>
+                <ul>
+                  C#
+                </ul>
+                <ul>
+                  Python
+                </ul>
+              </li>
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-database-2-line"></i>
+            </div>
+            <h3 class="service-title">API Testing</h3>
+            <p class="service-description">
+              REST API and Microservice validation using Postman and Playwright
+              API automation : covering payloads, status codes, authentication,
+              and business logic.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-shopping-bag-line"></i>
+            </div>
+            <h3 class="service-title">OMS & WMS Testing</h3>
+            <p class="service-description">
+              End-to-end testing of IBM Sterling OMS (COM, SOM, API), Blue
+              Yonder WMS : covering order creation, fulfilment, payments, and
+              system integration.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-speed-line"></i>
+            </div>
+            <h3 class="service-title">Performance Testing</h3>
+            <p class="service-description">
+              Load and performance testing using JMeter to validate system
+              stability, throughput, and response times under simulated real
+              world traffic conditions.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-git-branch-line"></i>
+            </div>
+            <h3 class="service-title">Agile QA Delivery</h3>
+            <p class="service-description">
+              Full STLC participation : User story analysis, test planning, test
+              case design, execution, defect tracking, and stakeholder status
+              reporting using Jira, Zephyr &amp; X-Ray.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">My Work</h2>
+          <p class="section-subtitle">Key projects and areas of expertise</p>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <div class="portfolio-placeholder">
+                <i class="ri-shopping-cart-line"></i>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">
+                Retail Supply Chain : End-to-End QA
+              </h3>
+              <p class="portfolio-category">
+                Comprehensive web and mobile testing for a large scale retail
+                platform covering OMS, WMS, Customer Engagement Portal, and
+                Warranty Management System within Agile sprint cycles.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <div class="portfolio-placeholder">
+                <i class="ri-shopping-bag-line"></i>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">
+                IBM Sterling OMS : Order Lifecycle Testing
+              </h3>
+              <p class="portfolio-category">
+                Validated full order lifecycle in IBM Sterling OMS including
+                order creation, fulfilment, payments (Prepaid, COD, eGift Card),
+                and database verification in AS400 and Oracle DB2.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <div class="portfolio-placeholder">
+                <i class="ri-code-s-slash-line"></i>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">
+                BDD Automation Framework : Playwright & Cucumber
+              </h3>
+              <p class="portfolio-category">
+                Co-developed and maintained BDD-style automation frameworks
+                using Playwright with Cucumber and JavaScript, mapping business
+                requirements to feature files and step definitions for key user
+                journeys.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <div class="portfolio-placeholder">
+                <i class="ri-database-2-line"></i>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">
+                API Validation Suite : Postman & Playwright
+              </h3>
+              <p class="portfolio-category">
+                Designed and executed structured API test suites for backend
+                microservices covering payloads, status codes, authentication
+                flows, and business logic with positive and negative scenarios.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <div class="portfolio-placeholder">
+                <i class="ri-git-merge-line"></i>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">
+                Blue Yonder WMS & OMS Integration Testing
+              </h3>
+              <p class="portfolio-category">
+                Led offshore integration testing between Blue Yonder WMS and OMS
+                for SIT and UAT phases, coordinating across teams as a single
+                offshore resource for seamless system validation.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <div class="portfolio-placeholder">
+                <i class="ri-award-line"></i>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">
+                Automation Framework : Insta Award Winner
+              </h3>
+              <p class="portfolio-category">
+                Awarded the Infosys Insta Award for Automation Framework &amp;
+                Team Management, and the IQE Unit Rise Award for exceptional
+                project excellence, recognising delivery impact and innovation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="testimonials">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">
+            Professional credentials and achievements
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card cert-card">
+            <div class="cert-icon"><i class="ri-medal-line"></i></div>
+            <p class="testimonial-text">
+              Certified Software Development Engineer in Test (SDET)
+            </p>
+            <div class="testimonial-author">
+              <h4 class="author-name">SDET Certification</h4>
+              <p class="author-position">Professional Certification</p>
+            </div>
+          </div>
+          <div class="testimonial-card cert-card">
+            <div class="cert-icon"><i class="ri-medal-line"></i></div>
+            <p class="testimonial-text">
+              Infosys Certified Selenium Automation Tester — validating advanced
+              web automation expertise with Selenium WebDriver.
+            </p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Selenium Automation Tester</h4>
+              <p class="author-position">Infosys Certified</p>
+            </div>
+          </div>
+          <div class="testimonial-card cert-card">
+            <div class="cert-icon"><i class="ri-medal-line"></i></div>
+            <p class="testimonial-text">
+              Infosys Certified Java Programmer &amp; Python Programmer —
+              demonstrating strong programming foundations for test automation
+              development.
+            </p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Java &amp; Python Programmer</h4>
+              <p class="author-position">Infosys Certified</p>
+            </div>
+          </div>
+          <div class="testimonial-card cert-card">
+            <div class="cert-icon"><i class="ri-medal-line"></i></div>
+            <p class="testimonial-text">
+              Infosys Global Agile Developer &amp; Certified DevOps Professional
+              — expertise in Agile methodologies, CI/CD, and modern software
+              development practices.
+            </p>
+            <div class="testimonial-author">
+              <h4 class="author-name">
+                Agile Developer &amp; DevOps Professional
+              </h4>
+              <p class="author-position">Infosys Certified</p>
+            </div>
+          </div>
+          <div class="testimonial-card cert-card">
+            <div class="cert-icon"><i class="ri-medal-line"></i></div>
+            <p class="testimonial-text">
+              Infosys Certified Generative AI Engineer &amp; Prompt Engineer —
+              cutting-edge skills in AI-driven development and applied prompt
+              engineering.
+            </p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Generative AI &amp; Prompt Engineer</h4>
+              <p class="author-position">Infosys Certified</p>
+            </div>
+          </div>
+          <div class="testimonial-card cert-card">
+            <div class="cert-icon"><i class="ri-trophy-line"></i></div>
+            <p class="testimonial-text">
+              Infosys Insta Award: Automation Framework &amp; Team Management
+              &bull; IQE Unit Rise Award: Exceptional Project Excellence.
+            </p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Awards &amp; Recognition</h4>
+              <p class="author-position">Infosys Limited</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's work together</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 class="contact-heading">Contact Information</h3>
+            <p class="contact-description">
+              Feel free to reach out to me for new opportunities and project
+              inquiries
+            </p>
+            <div class="contact-details" style="gap: 1.5rem; margin-top: 1rem">
+              <a
+                href="https://www.linkedin.com/in/sannidqaengineer/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                style="min-width: 200px; justify-content: center"
+              >
+                <i class="ri-linkedin-fill" style="font-size: 1.2rem"></i>
+                LinkedIn
+              </a>
+              <a
+                href="mailto:sannidokgd@gmail.com"
+                class="btn btn-primary"
+                style="min-width: 200px; justify-content: center"
+              >
+                <i class="ri-mail-send-line" style="font-size: 1.2rem"></i>
+                Email Me
+              </a>
+              <a
+                href="tel:+919747343588"
+                class="btn btn-primary"
+                style="min-width: 200px; justify-content: center"
+              >
+                <i class="ri-phone-line" style="font-size: 1.2rem"></i> Call Me
+              </a>
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formspree.io/f/sannidportfolio"
+            method="POST"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-input"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                class="form-input"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="subject"
+                class="form-input"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                class="form-input"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <a href="#home" class="footer-logo">Sreenath S Menon</a>
+          <p class="footer-text">
+            &copy; 2026 Sreenath S Menon. All Rights Reserved.
+          </p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <a href="#home" class="scroll-up" id="scrollUp" aria-label="Scroll to top">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
